@@ -1,19 +1,20 @@
 {
   "name": "nostr-notify",
   "description": "libnotify nostr notifications",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": {
     "url": "https://github.com/jb55/nostr-notify"
   },
   "main": "index.js",
   "bin": {
-	  "nostr-notify": "./index.js"
+    "nostr-notify": "./index.js"
   },
   "scripts": {
     "test": "tap test/*.js"
   },
   "dependencies": {
     "libnotify": "^1.0.4",
+    "mkdirp": "^1.0.4",
     "nostr": "^0.2.6"
   },
   "devDependencies": {

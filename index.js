@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
 const {RelayPool, getPublicKey, decryptDm} = require('nostr')
-const {spawn} = require('node:child_process')
-
-const path = require('path')
 const mkdirp = require('mkdirp')
+
+const {spawn} = require('node:child_process')
+const path = require('node:path')
 const https = require('node:https')
 const http = require('node:http')
 const fs = require('node:fs').promises
