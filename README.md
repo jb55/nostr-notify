@@ -23,7 +23,7 @@ Usage
 
 Configure relays:
 
-    $ git config --global --set nostr.relays "wss://relay1.com wss://relay2.com"
+    $ git config --global --add nostr.relays "wss://relay1.com wss://relay2.com"
 
 OR
 
@@ -35,7 +35,7 @@ Run:
 
 For encrypted dm support:
 
-    $ git config --global --set nostr.secretkey <hex-secret-key>
+    $ git config --global --add nostr.secretkey <hex-secret-key>
     $ nostr-notify
 
 OR
