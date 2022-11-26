@@ -1,4 +1,4 @@
-
+#!/usr/bin/env node
 
 const {RelayPool, getPublicKey, decryptDm} = require('nostr')
 const {spawn} = require('node:child_process')

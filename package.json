@@ -1,11 +1,14 @@
 {
   "name": "nostr-notify",
   "description": "libnotify nostr notifications",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {
     "url": "https://github.com/jb55/nostr-notify"
   },
   "main": "index.js",
+  "bin": {
+	  "nostr-notify": "./index.js"
+  },
   "scripts": {
     "test": "tap test/*.js"
   },
