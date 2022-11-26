@@ -9,8 +9,8 @@ Listen for events to a pubkey and send desktop notifications via notify-send
 Install
 -------
 
-$ npm -g install nostr-notify
-$ nostr-notify
+    $ npm -g install nostr-notify
+    $ nostr-notify
 
 Dependencies
 ------------
