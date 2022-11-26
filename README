@@ -4,6 +4,11 @@ nostr-libnotify
 
 Listen for events to a pubkey and send desktop notifications via notify-send
 
+Dependencies
+------------
+
+libnotify/notify-send
+
 
 Usage
 -----
