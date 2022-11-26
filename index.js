@@ -233,6 +233,8 @@ async function main() {
 		if (seen.has(ev.id))
 			return
 
+		if (ev.kind === 3)
+			return
 		if (ev.kind === 3 && seen.has(ev.pubkey))
 			return
 		else

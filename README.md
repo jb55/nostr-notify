@@ -1,6 +1,6 @@
 
-nostr-libnotify
-===============
+nostr-notify
+============
 
 Listen for nostr events and sends desktop notifications via notify-send
 
