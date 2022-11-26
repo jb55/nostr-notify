@@ -4,6 +4,8 @@ nostr-libnotify
 
 Listen for events to a pubkey and send desktop notifications via notify-send
 
+![](https://jb55.com/s/58bfcd8f9c00cf4a.png)
+
 Install
 -------
 
