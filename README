@@ -8,6 +8,16 @@ Listen for events to a pubkey and send desktop notifications via notify-send
 Usage
 -----
 
-$ nostr-notify <pubkey>
+Basic usage:
 
+    $ nostr-notify <hex-pubkey>
 
+For encrypted dm support:
+
+    $ git config --global --set nostr.secretkey <hex-secret-key>
+    $ nostr-notify
+
+OR
+
+    $ export NOSTR_SECRET_KEY=<hex secret key>
+    $ nostr-notify
