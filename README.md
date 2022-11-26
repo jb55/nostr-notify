@@ -21,7 +21,15 @@ libnotify/notify-send
 Usage
 -----
 
-Basic usage:
+Configure relays:
+
+    $ git config --global --set nostr.relays "wss://relay1.com wss://relay2.com"
+
+OR
+
+    $ export NOSTR_RELAYS="wss://relay1.com wss://relay2.com"
+
+Run:
 
     $ nostr-notify <hex-pubkey>
 
