@@ -229,6 +229,12 @@ async function main() {
 
 	const waiter = make_waiter()
 
+	pool.on('error', (e) => {
+		// just kill process on error so it can be restarted
+		console.log(e)
+		process.exit(2)
+	})
+
 	pool.on('event', async (relay, subid, ev) => {
 		if (seen.has(ev.id))
 			return
